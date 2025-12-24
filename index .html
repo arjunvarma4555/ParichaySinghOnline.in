@@ -1,0 +1,167 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Arjun Varma | Website</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Navbar */
+nav{
+    background:#222;
+    padding:15px;
+}
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav a:hover{
+    color:orange;
+}
+
+/* Hero Section */
+.hero{
+    background:url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+.hero h1{
+    font-size:50px;
+}
+.hero p{
+    font-size:20px;
+}
+
+/* Section */
+section{
+    padding:60px 20px;
+    text-align:center;
+    background:white;
+    margin:20px;
+    border-radius:10px;
+}
+
+/* Services */
+.services{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.card{
+    background:#fff;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* Contact */
+input, textarea{
+    width:80%;
+    padding:10px;
+    margin:10px;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero" id="home">
+    <h1>Welcome to Arjun Varma Website</h1>
+    <p>Make a website • Learn Coding • Grow Online</p>
+</div>
+
+<!-- ABOUT -->
+<section>
+    <h2>About Me</h2>
+    <p>
+        Hello! Mera naam <b>Arjun Varma</b> hai.  
+        Mujhe website banana aur new technology seekhna pasand hai.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2>My Services</h2>
+    <div class="services">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+            <h3>Web Design</h3>
+            <p>Simple aur attractive websites</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f">
+            <h3>HTML & CSS</h3>
+            <p>Beginner friendly coding</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93">
+            <h3>Free Hosting</h3>
+            <p>GitHub Pages & Free builders</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+    <h2>Gallery</h2>
+    <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" width="250">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" width="250">
+    <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64" width="250">
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <input type="text" placeholder="Your Name"><br>
+        <input type="email" placeholder="Your Email"><br>
+        <textarea rows="5" placeholder="Message"></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Arjun Varma</p>
+    <p>Email: arjunvarma3456@gmail.com</p>
+</footer>
+
+</body>
+</html>
